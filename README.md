@@ -20,6 +20,8 @@ In April 2026, the bank's detection systems recorded a stabilization in general 
 
 #### **2. Technical Trend Analysis: The .lnk Phishing Spike**
 
+![Trend Analysis](Trend%20Analysis.png)
+
 * **The Trend:** We identified a **22% month-over-month increase** in phishing attempts using malicious `.lnk` (shortcut) file attachments.
 * **Targeting:** 85% of these attempts specifically targeted users within the **Finance and Fraud Control** departments.
 * **The Payload:** The `.lnk` files were designed to trigger a PowerShell reverse shell, bypassing traditional "Sandbox" scanners that only look for executable files (like `.exe`).
@@ -27,6 +29,8 @@ In April 2026, the bank's detection systems recorded a stabilization in general 
 ---
 
 #### **3. Fraud Intersection: Authorised Push Payments (APP)**
+
+![Chart](Fraud%20Incident%20Breakdown%20April%202026.png)
 
 * **Observation:** While technical "Card Theft" fraud is decreasing, **APP Scams** (where customers are coached to authorize a transaction) now account for **70% of confirmed losses**.
 * **The Link:** Technical breaches in the Contact Centre or Finance team (via the `.lnk` spike) are often the "pre-cursor" to APP scams. Attackers seek internal credentials to gain "Insider Knowledge," making their calls to customers sound more legitimate.
